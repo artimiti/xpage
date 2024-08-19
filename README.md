@@ -6,7 +6,6 @@
 - JS
 - БЭМ
 
-<br>
 Особенности Gulp:
 - Минификация CSS - gulp-csso 
 - Сжатие HTML - gulp-htmlclean
