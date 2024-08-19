@@ -6,7 +6,7 @@
 - JS
 - БЭМ
   
-Gulp плагины:
+особенности Gulp:
 - Минификация CSS - gulp-csso 
 - Сжатие HTML - gulp-htmlclean
 - Сжатие изображений - gulp-imagemin
