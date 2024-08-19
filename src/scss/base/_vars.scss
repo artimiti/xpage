@@ -1,0 +1,45 @@
+:root {
+	--container-width: 1920px;
+	--container-padding: 20px;
+	--container-padding--mobile: 12px;
+
+	--page-bg: #ececec;
+	--text-color: #000;
+
+
+	--desktop-primary-orange: #f36722;
+	--desktop-hover-orange: #ff8b3d;
+	--desktop-pressed-orange: #dc4f00;
+	--desktop-primary-blue: #2d69c2;
+	--desktop-hover-blue: #5d94e7;
+	--desktop-pressed-blue: #1652ac;
+	--desktop-primary-green: #2e8d43;
+	--desktop-green-hover: #6ec782;
+	--desktop-pressed-green: #0a7421;
+	--desktop-background: #efefef;
+	--desktop-white: #fff;
+	--desktop-white-20: rgba(250, 250, 250, 0.2);
+	--desktop-grey-50: #fafafa;
+	--desktop-grey-100: #ececec;
+	--desktop-grey-200: #c4c4c4;
+	--desktop-grey-300: #a1a1a1;
+	--desktop-grey-400: #747474;
+	--desktop-grey-500: #404040;
+	--desktop-black: #202020;
+	--desktop-red-negative: #fa3015;
+	--app-white: #fff;
+	--app-orange: #f36722;
+	--app-black: #202020;
+	--app-graytext: #bdbdbd;
+	--app-graybg: #e8e8e8;
+	--app-graystroke: #dcdcdc;
+	--app-greenaccept: #6ec782;
+
+	--font-family: "DrukWideCyr", sans-serif;
+	--second-family: "Commissioner", sans-serif;
+
+
+	--laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}

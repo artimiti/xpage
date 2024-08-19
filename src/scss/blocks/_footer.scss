@@ -1,0 +1,15 @@
+.footer__link {
+	position: relative;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: var(--desktop-black);
+	background-color: var(--page-bg);
+	z-index: 1;
+	
+}
+.footer{
+	margin-top: -60px;
+}

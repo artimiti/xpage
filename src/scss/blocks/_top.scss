@@ -1,0 +1,88 @@
+
+.top {
+    margin-bottom: 120px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 100px);
+        background-image: url('./../../img/top/top-1.webp');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0 20px;
+        border-radius: 20px;
+        transition: background-image 0.3s ease;
+        @media (max-width: 768px) {
+           padding: 0 12px;   
+           border-radius: 12px;     
+        }
+        
+    }
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: clamp(60px, 4vw, 80px);
+        line-height: 120%;
+        text-transform: uppercase;
+        color: var(--desktop-white);
+        margin-top: auto;
+        margin-bottom: 48px;
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-radius: 20px;
+        width: 100%;
+        box-shadow: 0 4px 20px 0 rgba(23, 23, 23, 0.03);
+        background-color: var(--desktop-white);
+        text-align: left;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: var(--desktop-black);
+        &:hover{
+            background-color: var(--desktop-primary-orange);
+            color: var(--desktop-white);
+        }
+        @media (max-width: 1024px) {
+            padding: 10px 10px 10px 14px;
+            font-size: 14px;
+            border-radius: 10px;
+        }
+    }
+}
+.top-btn-svg{
+    opacity: 0;
+    visibility: hidden;
+}
+.top__btn:hover{
+    & svg {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 768px) {
+    .top__btns{
+        flex-direction: column;
+    }
+    .top__title{
+        font-size: clamp(26px, 5vw, 60px);
+    }
+
+}
