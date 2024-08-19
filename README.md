@@ -9,7 +9,8 @@
 Gulp плагины:
 - Минификация CSS - gulp-csso 
 - Сжатие HTML - gulp-htmlclean
-- Сжатие изображений - gulp-imagemin 
+- Сжатие изображений - gulp-imagemin
+- 2х разрешения для ретина-дисплеев
 - Автогенерация webp изображений - gulp-webp
 - Генерация шрифов в формате woff/woff2
 
